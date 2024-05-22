@@ -5,4 +5,10 @@
 ## Steps to Create:
 
 1. React App (for User Interface)
-2. Flask API (for serving Recommendations API)
+
+  a. Installing Node Package Manager
+  ```bash
+  npx create-react-app my-app
+  cd my-app
+  ```
+3. Flask API (for serving Recommendations API)
