@@ -7,7 +7,7 @@
 1. Running the Flask API for recommendations
   ```bash
   cd Top-picks-recommenders-system/flask-backend
-  # Install python ,
+  # Install python ,if not already.
   python app.py
   ```
   Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=1
