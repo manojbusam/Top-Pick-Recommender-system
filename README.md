@@ -7,7 +7,7 @@
 1. Running the Flask API for recommendations
   ```bash flask-backend
   # Change directory to 
-  cd Top-picks-recommenders-system/flask-backend
+  cd Top-Pick-Recommender-system/flask-backend
   # 1. Install python ,if not already.
   # 2. Setup Virtual environment by running:
   python -m venv venv
