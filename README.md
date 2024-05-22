@@ -28,9 +28,9 @@
    npx create-react-app react-frontend
    # Copy the files as described in the above folder structure
    cd react-frontend
-   cp ../Top-picks-recommenders-system/react/index.html public/
-   cp ../Top-picks-recommenders-system/react/index.js src/
-   cp ../Top-picks-recommenders-system/react/Recommendations.js src/
+   cp ../react/index.html public/
+   cp ../react/index.js src/
+   cp ../react/Recommendations.js src/
 
    # Install node if not already, by running: brew install node
    # Start the APP
