@@ -15,7 +15,6 @@
 2. Running the React App (for User Interface)
 
   ```bash
-   git clone
    cd Top-picks-recommenders-system/my-app
    # Install node if not already, by running: brew install node
    npm start
