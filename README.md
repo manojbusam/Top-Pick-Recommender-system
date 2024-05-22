@@ -20,7 +20,26 @@
   
 2. Running the React App (for User Interface)
 
-   Overall Folder structure:
+  ```
+  ```bash
+   # In a new terminal, go to this git parent directory
+   cd Top-picks-recommenders-system
+   # Create "react-frontend" react app
+   npx create-react-app react-frontend
+   # Copy the files as described in the above folder structure
+   cd react-frontend
+   cp ../Top-picks-recommenders-system/react/index.html public/
+   cp ../Top-picks-recommenders-system/react/index.js src/
+   cp ../Top-picks-recommenders-system/react/Recommendations.js src/
+
+   # Install node if not already, by running: brew install node
+   # Start the APP
+   npm start
+  ```
+  Check the User interface on http://localhost:3000/
+
+  
+## Overall Folder structure:
   ```bash
 Top-picks-recommenders-system/
 │
@@ -39,23 +58,3 @@ Top-picks-recommenders-system/
     │   └── ...  # Other React files
     ├── package.json  # Node.js dependencies
     └── ...  # Other React files
-
-  ```
-  ```bash
-   # In a new terminal, go to this git parent directory
-   cd Top-picks-recommenders-system
-   # Create "react-frontend" react app
-   npx create-react-app react-frontend
-   # Copy the files as described in the above folder structure
-   cd react-frontend
-   cp ../Top-picks-recommenders-system/react/index.html public/
-   cp ../Top-picks-recommenders-system/react/index.js src/
-   cp ../Top-picks-recommenders-system/react/Recommendations.js src/
-
-   # Install node if not already, by running: brew install node
-   npm start
-  ```
-  Check the User interface on http://localhost:3000/
-
-  
-
