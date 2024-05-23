@@ -24,13 +24,16 @@ Brief description of your project.
 
 ### Database Setup
 
-1. **Create Database:**
+1a. **Create Database:**
    - Connect to PostgreSQL:
      ```
      psql
      ```
    - Create a database named `recommendations_db`:
      ```sql
+     -- Drop the DATABASE if it already exists
+     -- DROP DATABASE IF EXISTS recommendations_db;
+     
      CREATE DATABASE recommendations_db;
      ```
    - Connect to the newly created database:
@@ -38,17 +41,22 @@ Brief description of your project.
      \c recommendations_db
      ```
 
-2. **Create Table:**
+1b. **Create Table:**
    - Execute the following SQL command to create the `recommendations` table:
      ```sql
-     CREATE TABLE recommendations (
-         user_id TEXT,
-         movie_id INTEGER,
-         title TEXT
-     );
+     -- Drop the table if it already exists
+      -- DROP TABLE IF EXISTS recommendations;
+      
+      -- Create the table
+      CREATE TABLE recommendations (
+          user_id TEXT,
+          movie_id INTEGER,
+          title TEXT
+      );
+
      ```
 
-3. **Insert Records:**
+1c. **Insert Records:**
    - Execute the following SQL commands to insert records for "Manoj", "Vijju", and "Kids":
      ```sql
      INSERT INTO recommendations (user_id, movie_id, title) VALUES
@@ -61,7 +69,12 @@ Brief description of your project.
      ('Kids', 106, 'Doremon');
      ```
 
+1d. **Checking records:**
 
+   ```sql
+   SELECT * FROM recommendations;
+   ```
+![Screenshot 2024-05-23 at 9 18 36 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/b908c13f-e859-4fd1-bdcf-d868c07ba530)
 
 
 
