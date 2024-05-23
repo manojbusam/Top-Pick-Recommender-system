@@ -15,7 +15,7 @@
   # 3. Start the app
   python app.py
   ```
-  Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=1
+  Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=Manoj
   If status is 200, You are good!
   
 2. Running the React App (for User Interface)
@@ -31,6 +31,7 @@
    cp ../react/index.html public/
    cp ../react/index.js src/
    cp ../react/Recommendations.js src/
+   cp -r ../images public/
 
    # Install node if not already, by running: brew install node
    # Start the APP
@@ -52,6 +53,10 @@ Top-picks-recommenders-system/
     ├── node_modules/  # Node.js modules
     ├── public/
     │   ├── index.html  # html page
+    ├── ├── images/
+    ├   ├      ├──Manoj.png
+    ├   ├      ├──Vijju.png
+    ├   ├      ├──Kids.png
     ├── src/
     │   ├── index.js  # Entry point for React
     │   ├── Recommendations.js  # Your component
