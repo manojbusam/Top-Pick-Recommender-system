@@ -71,7 +71,7 @@
   cd Top-Pick-Recommender-system/flask-backend
   # 1. Install python ,if not already.
   # 2. Setup Virtual environment by running:
-  python -m venv venv
+  python3 -m venv venv
   source venv/bin/activate
   # 3. Start the app
   python app.py
