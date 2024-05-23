@@ -32,12 +32,12 @@
    - Execute the following SQL command to create the `recommendations` table:
      ```sql
      -- Drop the table if it already exists
-      -- DROP TABLE IF EXISTS recommendations;
+      -- DROP TABLE IF EXISTS toppicks_recommendations;
       
       -- Create the table
-      CREATE TABLE recommendations (
+      CREATE TABLE toppicks_recommendations (
           user_id TEXT,
-          movie_id INTEGER,
+          relevancy INTEGER,
           title TEXT
       );
 
@@ -46,20 +46,20 @@
 1d. Insert Records:
    - Execute the following SQL commands to insert records for "Manoj", "Vijju", and "Kids":
      ```sql
-     INSERT INTO recommendations (user_id, movie_id, title) VALUES
-     ('Manoj', 101, 'Salaar'),
-     ('Manoj', 102, 'Animal'),
-     ('Manoj', 107, 'Oppenheimer'),
-     ('Vijju', 103, 'Hi Nanna'),
-     ('Vijju', 104, 'Nani''s Majnu'),
-     ('Kids', 105, 'Shinchan'),
-     ('Kids', 106, 'Doremon');
+     INSERT INTO toppicks_recommendations (user_id, relevancy, title) VALUES
+     ('Manoj', 97, 'Salaar'),
+     ('Manoj', 65, 'Animal'),
+     ('Manoj', 75, 'Oppenheimer'),
+     ('Vijju', 85, 'Hi Nanna'),
+     ('Vijju', 95, 'Nani''s Majnu'),
+     ('Kids', 100, 'Shinchan'),
+     ('Kids', 100, 'Doremon');
      ```
 
 1e. Checking records:
 
    ```sql
-   SELECT * FROM recommendations;
+   SELECT * FROM toppicks_recommendations;
    ```
    ![Screenshot 2024-05-23 at 9 18 36 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/b908c13f-e859-4fd1-bdcf-d868c07ba530)
 
