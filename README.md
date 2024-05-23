@@ -71,7 +71,7 @@
   cd Top-Pick-Recommender-system/flask-backend
   # 1. Install python ,if not already.
   # 2. Setup Virtual environment by running:
-  python3 -m venv venv
+  python -m venv venv
   source venv/bin/activate
   # 3. Loading the data into DB
   python load_data.py
