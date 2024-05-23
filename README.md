@@ -50,19 +50,19 @@ Top-picks-recommenders-system/
 │   └── requirements.txt  # List of Python dependencies
 │
 └── react-frontend/
-    ├── node_modules/  # Node.js modules
-    ├── public/
-    │   ├── index.html  # html page
-    ├── ├── images/
-    ├   ├      ├──Manoj.png
-    ├   ├      ├──Vijju.png
-    ├   ├      ├──Kids.png
-    ├── src/
-    │   ├── index.js  # Entry point for React
-    │   ├── Recommendations.js  # Your component
-    │   └── ...  # Other React files
-    ├── package.json  # Node.js dependencies
-    └── ...  # Other React files
+      ├── node_modules/  # Node.js modules
+      ├── public/
+      │   ├── index.html  # html page
+      ├── ├── images/
+      ├   ├      ├──Manoj.png
+      ├   ├      ├──Vijju.png
+      ├   ├      ├──Kids.png
+      ├── src/
+      │   ├── index.js  # Entry point for React
+      │   ├── Recommendations.js  # Your component
+      │   └── ...  # Other React files
+      ├── package.json  # Node.js dependencies
+      └── ...  # Other React files
   ```
 Ouputs on User Selection:
 
