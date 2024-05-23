@@ -24,7 +24,7 @@ Brief description of your project.
 
 ### Database Setup
 
-1a. **Create Database:**
+1a. Create Database:
    - Connect to PostgreSQL:
      ```
      psql
@@ -41,7 +41,7 @@ Brief description of your project.
      \c recommendations_db
      ```
 
-1b. **Create Table:**
+1b. Create Table:
    - Execute the following SQL command to create the `recommendations` table:
      ```sql
      -- Drop the table if it already exists
@@ -56,7 +56,7 @@ Brief description of your project.
 
      ```
 
-1c. **Insert Records:**
+1c. Insert Records:
    - Execute the following SQL commands to insert records for "Manoj", "Vijju", and "Kids":
      ```sql
      INSERT INTO recommendations (user_id, movie_id, title) VALUES
@@ -69,17 +69,17 @@ Brief description of your project.
      ('Kids', 106, 'Doremon');
      ```
 
-1d. **Checking records:**
+1d. Checking records:
 
    ```sql
    SELECT * FROM recommendations;
    ```
-![Screenshot 2024-05-23 at 9 18 36 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/b908c13f-e859-4fd1-bdcf-d868c07ba530)
+   ![Screenshot 2024-05-23 at 9 18 36 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/b908c13f-e859-4fd1-bdcf-d868c07ba530)
 
 
 
 
-1. Running the Flask API for recommendations
+2. Running the Flask API for recommendations
   ```bash flask-backend
   # Change directory to 
   cd Top-Pick-Recommender-system/flask-backend
@@ -93,7 +93,7 @@ Brief description of your project.
   Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=Manoj
   If status is 200, You are good!
   
-2. Running the React App (for User Interface)
+3. Running the React App (for User Interface)
 
   ```
   ```bash
