@@ -75,6 +75,15 @@
   source venv/bin/activate
   # 3. Install all libs:
   pip3 install -r requirements.txt
+  # 4. Change Postgre credentials
+  Change at Top-Pick-Recommender-system/flask-backend/app.py and Top-Pick-Recommender-system/flask-backend/load_data.py
+db_params = {
+    'dbname': "recommendations_db",
+    'user': "HERE",
+    'password': "HERE",
+    'host': "127.0.0.1",
+    'port': "5432"
+}
   # 4. Loading the data into DB
   python3 load_data.py
   # 5. Start the app
