@@ -8,10 +8,10 @@ CORS(app)
 # Connect to PostgreSQL database
 conn = psycopg2.connect(
     dbname="recommendations_db",
-    user="user",
-    password="password",
-    host="127.0.0.1",  # or your database host
-    port="5432"  # default PostgreSQL port
+    user="manoj",
+    password="r0nald0",
+    host="127.0.0.1",
+    port="5432"
 )
 
 @app.route('/api/recommend', methods=['GET'])
@@ -20,8 +20,8 @@ def recommend():
     recommendations = []
     if user_id:
         cursor = conn.cursor()
-        cursor.execute("SELECT movie_id, title FROM recommendations WHERE user_id=%s", (user_id,))
-        recommendations = [{'id': row[0], 'title': row[1]} for row in cursor.fetchall()]
+        cursor.execute("SELECT relevancy, title FROM toppicks_recommendations WHERE user_id=%s ORDER BY relevancy DESC", (user_id,))
+        recommendations = [{'relevancy': row[0], 'title': row[1]} for row in cursor.fetchall()]
         cursor.close()
     return jsonify(recommendations)
 
