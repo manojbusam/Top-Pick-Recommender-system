@@ -43,8 +43,10 @@ function Recommendations() {
             <div className="top-picks-container">
                 <h2>Your Top Picks</h2>
                 <ul>
-                    {recommendations.map(item => (
-                        <li key={item.id}>{item.title}</li>
+                     {recommendations.map((item, index) => (
+                        <li key={index}>
+                            {item.title} - {item.relevancy} %
+                        </li>
                     ))}
                 </ul>
             </div>
