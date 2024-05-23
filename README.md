@@ -73,9 +73,11 @@
   # 2. Setup Virtual environment by running:
   python3 -m venv venv
   source venv/bin/activate
-  # 3. Loading the data into DB
+  # 3. Install all libs:
+  pip3 install -r requirements.txt
+  # 4. Loading the data into DB
   python3 load_data.py
-  # 4. Start the app
+  # 5. Start the app
   python3 app.py
   ```
   Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=Manoj
