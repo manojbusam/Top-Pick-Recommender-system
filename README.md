@@ -43,7 +43,7 @@
 
      ```
 
-1d. Insert Records:
+1d. Insert Records (OPTIONAL):
    - Execute the following SQL commands to insert records for "Manoj", "Vijju", and "Kids":
      ```sql
      INSERT INTO toppicks_recommendations (user_id, relevancy, title) VALUES
@@ -56,16 +56,16 @@
      ('Kids', 100, 'Doremon');
      ```
 
-1e. Checking records:
+1e. Checking records (OPTIONAL)::
 
    ```sql
    SELECT * FROM toppicks_recommendations LIMIT 10;
    ```
    ![Screenshot 2024-05-23 at 9 56 25 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/309d6c52-8352-4192-a324-c3225b7a4680)
 
-### 2. Flask API Installation
+### 2. Flask API Installation 
 
-2a. Running the Flask API for recommendations
+2a. Loading the data in DB and Running the Flask API 
   ```bash flask-backend
   # Change directory to 
   cd Top-Pick-Recommender-system/flask-backend
@@ -73,7 +73,9 @@
   # 2. Setup Virtual environment by running:
   python3 -m venv venv
   source venv/bin/activate
-  # 3. Start the app
+  # 3. Loading the data into DB
+  python load_data.py
+  # 4. Start the app
   python app.py
   ```
   Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=Manoj
