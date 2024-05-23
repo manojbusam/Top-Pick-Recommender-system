@@ -132,11 +132,10 @@ Top-picks-recommenders-system/
   ```
 ## 5. Ouputs on User Selection:
 
-![Screenshot 2024-05-23 at 9 34 45 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/c3a0a6b6-61c5-4ac1-abb2-f0d9c4b81647)
+![Screenshot 2024-05-23 at 10 25 22 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/a8a9006c-b376-40f4-b8ac-f893892da854)
 
-<img width="834" alt="Screenshot 2024-05-22 at 7 34 23 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/858261d5-a599-4393-9f8d-ddc94191e404">
+![Screenshot 2024-05-23 at 10 25 33 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/5bf5bec5-b9e0-41ac-942c-51b8de113f98)
 
-<img width="886" alt="Screenshot 2024-05-22 at 7 34 30 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/be21446a-ac6f-4a3d-9f5b-b0fd34d7318e">
-
+![Screenshot 2024-05-23 at 10 25 43 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/34409805-fc54-4224-b090-699517a9d155)
 
 
