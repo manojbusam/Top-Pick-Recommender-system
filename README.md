@@ -113,6 +113,8 @@ Top-picks-recommenders-system/
 ├── flask-backend/
 │   ├── venv/  # Virtual environment directory
 │   ├── app.py  # Flask application
+│   ├── load_data.py  # Flask application
+│   ├── relevancy-toppicks.csv  # Flask application
 │   └── requirements.txt  # List of Python dependencies
 │
 └── react-frontend/
@@ -136,6 +138,5 @@ Top-picks-recommenders-system/
 
 ![Screenshot 2024-05-23 at 10 25 33 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/5bf5bec5-b9e0-41ac-942c-51b8de113f98)
 
-![Screenshot 2024-05-23 at 10 25 43 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/34409805-fc54-4224-b090-699517a9d155)
-
+![Screenshot 2024-05-23 at 11 26 08 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/f2cdee8c-338a-4504-b535-40d9a4ed7da4)
 
