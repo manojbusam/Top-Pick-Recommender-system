@@ -26,7 +26,7 @@
    cd Top-picks-recommenders-system
    # Create "react-frontend" react app
    npx create-react-app react-frontend
-   # Copy the files as described in the above folder structure
+   # Copy the required files for running the react app
    cd react-frontend
    cp ../react/index.html public/
    cp ../react/index.js src/
