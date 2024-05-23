@@ -63,7 +63,7 @@
    ```
    ![Screenshot 2024-05-23 at 9 18 36 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/b908c13f-e859-4fd1-bdcf-d868c07ba530)
 
-### Flask API Installation
+### 2. Flask API Installation
 
 2a. Running the Flask API for recommendations
   ```bash flask-backend
@@ -79,7 +79,7 @@
   Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=Manoj
   If status is 200, You are good!
 
-### React App Installation
+### 3. React App Installation
 
 3a. Running the React App (for User Interface)
 
