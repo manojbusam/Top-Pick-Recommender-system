@@ -77,10 +77,10 @@
   python app.py
   ```
   Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=Manoj
-  If status is 200, You are good!
   
-  ![Screenshot 2024-05-23 at 9 33 40 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/df44ee17-27ca-42a4-a3f4-c3711bcf6e8e)
+  ![Screenshot 2024-05-23 at 10 05 33 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/cd003075-4bf0-4ab0-ac4e-04944228bad3)
 
+  
 
 ### 3. React App Installation
 
