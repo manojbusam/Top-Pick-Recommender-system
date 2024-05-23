@@ -58,10 +58,15 @@ Top-picks-recommenders-system/
     │   └── ...  # Other React files
     ├── package.json  # Node.js dependencies
     └── ...  # Other React files
-
+  ```
 Ouputs on User Selection:
 
 
 <img width="858" alt="Screenshot 2024-05-22 at 7 33 46 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/02e63ab1-1e57-4345-9ac2-90b5b36990e8">
+
+<img width="834" alt="Screenshot 2024-05-22 at 7 34 23 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/858261d5-a599-4393-9f8d-ddc94191e404">
+
+<img width="886" alt="Screenshot 2024-05-22 at 7 34 30 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/be21446a-ac6f-4a3d-9f5b-b0fd34d7318e">
+
 
 
