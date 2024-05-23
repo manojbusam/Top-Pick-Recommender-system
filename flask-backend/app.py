@@ -8,8 +8,8 @@ CORS(app)
 # Connect to PostgreSQL database
 conn = psycopg2.connect(
     dbname="recommendations_db",
-    user="user",
-    password="password",
+    user="manoj",
+    password="r0nald0",
     host="127.0.0.1",
     port="5432"
 )
