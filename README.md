@@ -61,12 +61,7 @@ Top-picks-recommenders-system/
 
 Ouputs on User Selection:
 
-<img width="886" alt="Screenshot 2024-05-22 at 7 34 30 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/dbc29a4f-23f3-4a0f-9fbe-463099f850bb">
 
-<img width="834" alt="Screenshot 2024-05-22 at 7 34 23 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/e92fff54-47ab-4ee7-b167-368215f7b4ec
-
-<img width="858" alt="Screenshot 2024-05-22 at 7 33 46 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/bc3e9a05-bff9-47d9-ac79-ba1acf20df0e">
-
-
+<img width="858" alt="Screenshot 2024-05-22 at 7 33 46 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/02e63ab1-1e57-4345-9ac2-90b5b36990e8">
 
 
