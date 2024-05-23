@@ -71,12 +71,12 @@
   cd Top-Pick-Recommender-system/flask-backend
   # 1. Install python ,if not already.
   # 2. Setup Virtual environment by running:
-  python -m venv venv
+  python3 -m venv venv
   source venv/bin/activate
   # 3. Loading the data into DB
-  python load_data.py
+  python3 load_data.py
   # 4. Start the app
-  python app.py
+  python3 app.py
   ```
   Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=Manoj
   
