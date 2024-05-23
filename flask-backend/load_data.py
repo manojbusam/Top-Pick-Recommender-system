@@ -14,8 +14,8 @@ print(df.head(10))
 # Connect to PostgreSQL database
 conn = psycopg2.connect(
     dbname="recommendations_db",
-    user="manoj",
-    password="r0nald0",
+    user="user",
+    password="password",
     host="127.0.0.1",
     port="5432"
 )
