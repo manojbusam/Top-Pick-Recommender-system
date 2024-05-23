@@ -6,13 +6,14 @@ CORS(app)
 
 # Dummy data for recommendations
 recommendations_data = {
-    1: [{"id": 101, "title": "Movie 1"}, {"id": 102, "title": "Movie 2"}],
-    2: [{"id": 103, "title": "Movie 3"}, {"id": 104, "title": "Movie 4"}]
+    "Manoj": [{"id": 101, "title": "Salaar"}, {"id": 102, "title": "Animal"}],
+    "Vijju": [{"id": 103, "title": "Hi Nanna"}, {"id": 104, "title": "Nani's Majnu"}],
+    "Kids": [{"id": 105, "title": "Shinchan"}, {"id": 106, "title": "Doremon"}]
 }
 
 @app.route('/api/recommend', methods=['GET'])
 def recommend():
-    user_id = int(request.args.get('user_id'))
+    user_id = f"{request.args.get('user_id')}"
     recommendations = recommendations_data.get(user_id, [])
     return jsonify(recommendations)
 
