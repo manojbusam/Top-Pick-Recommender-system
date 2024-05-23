@@ -4,6 +4,68 @@
 
 ## Steps to Build and use:
 
+1. Setting up PostGreSQL Database
+
+# Project Name
+
+## Overview
+
+Brief description of your project.
+
+## Installation
+
+### PostgreSQL Installation
+
+1. **MacOS:**
+   - Install PostgreSQL using Homebrew:
+     ```
+     brew install postgresql
+     ```
+
+### Database Setup
+
+1. **Create Database:**
+   - Connect to PostgreSQL:
+     ```
+     psql
+     ```
+   - Create a database named `recommendations_db`:
+     ```sql
+     CREATE DATABASE recommendations_db;
+     ```
+   - Connect to the newly created database:
+     ```
+     \c recommendations_db
+     ```
+
+2. **Create Table:**
+   - Execute the following SQL command to create the `recommendations` table:
+     ```sql
+     CREATE TABLE recommendations (
+         user_id TEXT,
+         movie_id INTEGER,
+         title TEXT
+     );
+     ```
+
+3. **Insert Records:**
+   - Execute the following SQL commands to insert records for "Manoj", "Vijju", and "Kids":
+     ```sql
+     INSERT INTO recommendations (user_id, movie_id, title) VALUES
+     ('Manoj', 101, 'Salaar'),
+     ('Manoj', 102, 'Animal'),
+     ('Manoj', 107, 'Oppenheimer'),
+     ('Vijju', 103, 'Hi Nanna'),
+     ('Vijju', 104, 'Nani''s Majnu'),
+     ('Kids', 105, 'Shinchan'),
+     ('Kids', 106, 'Doremon');
+     ```
+
+
+
+
+
+
 1. Running the Flask API for recommendations
   ```bash flask-backend
   # Change directory to 
