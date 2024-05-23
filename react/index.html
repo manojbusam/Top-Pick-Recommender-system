@@ -4,22 +4,110 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Recommendation System</title>
-    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000000;
+            color: #ffffff;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #8b0000; /* Dark red */
+            padding: 10px 20px;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center; /* Center align items horizontally */
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 18px;
+        }
+
+        #userSelect {
+            background-color: #333333; /* Dark gray */
+            color: #ffffff;
+            border: none;
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        #userSelect option {
+            background-color: #333333; /* Dark gray */
+            color: #ffffff;
+        }
+
+        .user-photo-container {
+            width: 80px; /* Adjust the width of the user photo container */
+            height: 80px; /* Adjust the height of the user photo container */
+            border-radius: 50%; /* Make the container round */
+            overflow: hidden; /* Hide overflow for round shape */
+            margin-right: 20px; /* Adjust spacing between user photo and top picks */
+        }
+
+        .user-photo {
+            width: 100%; /* Make the photo fill the container */
+            height: 100%; /* Make the photo fill the container */
+            object-fit: cover; /* Ensure the image covers the container */
+        }
+
+    </style>
 </head>
 <body>
     <header>
-        <h1>Top Picks</h1>
         <nav>
             <ul>
                 <li><a href="/">Home</a></li>
                 <li><a href="/profile">Profile</a></li>
-                <li><a href="/recommendations">Recommendations</a></li>
+                <li>
+                    <label for="userSelect"></label>
+                    <select id="userSelect" onchange="handleUserChange(this)">
+                      <option value="Manoj">Manoj</option>  
+                        <option value="Vijju">Vijju</option>
+                        <option value="Kids">Kids</option>
+                        
+                    </select>
+                </li>
             </ul>
         </nav>
     </header>
     <main id="content">
         <div id="root"></div> <!-- React app will be mounted here -->
     </main>
-    <script src="app.js"></script>
+    <script>
+        function handleUserChange(selectElement) {
+            const selectedUserId = selectElement.value;
+            window.location.href = `/recommendations?user_id=${selectedUserId}`;
+        }
+
+        // Retrieve the selected user ID from the URL and set the dropdown value
+        const searchParams = new URLSearchParams(window.location.search);
+        const userId = searchParams.get('user_id');
+        if (userId) {
+            document.getElementById('userSelect').value = userId;
+        }
+    </script>
 </body>
 </html>
