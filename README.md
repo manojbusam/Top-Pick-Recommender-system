@@ -4,17 +4,14 @@
 
 ## Steps to Build and use:
 
-### PostgreSQL Installation
+### 1. PostgreSQL Installation
 
-1. **MacOS:**
+1a. MacOS:
    - Install PostgreSQL using Homebrew:
      ```
      brew install postgresql
      ```
-
-### Database Setup
-
-1a. Create Database:
+1b. Create Database:
    - Connect to PostgreSQL:
      ```
      psql
@@ -31,7 +28,7 @@
      \c recommendations_db
      ```
 
-1b. Create Table:
+1c. Create Table:
    - Execute the following SQL command to create the `recommendations` table:
      ```sql
      -- Drop the table if it already exists
@@ -46,7 +43,7 @@
 
      ```
 
-1c. Insert Records:
+1d. Insert Records:
    - Execute the following SQL commands to insert records for "Manoj", "Vijju", and "Kids":
      ```sql
      INSERT INTO recommendations (user_id, movie_id, title) VALUES
@@ -59,7 +56,7 @@
      ('Kids', 106, 'Doremon');
      ```
 
-1d. Checking records:
+1e. Checking records:
 
    ```sql
    SELECT * FROM recommendations;
@@ -68,7 +65,7 @@
 
 ### Flask API Installation
 
-2. Running the Flask API for recommendations
+2a. Running the Flask API for recommendations
   ```bash flask-backend
   # Change directory to 
   cd Top-Pick-Recommender-system/flask-backend
@@ -84,7 +81,7 @@
 
 ### React App Installation
 
-3. Running the React App (for User Interface)
+3a. Running the React App (for User Interface)
 
   ```
   ```bash
@@ -106,7 +103,7 @@
   Check the User interface on http://localhost:3000/
 
   
-## Overall Folder structure:
+## 4. Overall Folder structure:
   ```bash
 Top-picks-recommenders-system/
 │
@@ -130,7 +127,7 @@ Top-picks-recommenders-system/
       ├── package.json  # Node.js dependencies
       └── ...  # Other React files
   ```
-Ouputs on User Selection:
+## 5. Ouputs on User Selection:
 
 
 <img width="858" alt="Screenshot 2024-05-22 at 7 33 46 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/02e63ab1-1e57-4345-9ac2-90b5b36990e8">
