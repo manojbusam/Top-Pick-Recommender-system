@@ -1,3 +1,6 @@
+import matplotlib.pyplot as plt
+from sklearn.decomposition import PCA
+
 import pandas as pd
 from sklearn.cluster import KMeans
 
@@ -46,3 +49,20 @@ combined_df = merged_df[['user','title']]
 
 # Save to CSV file
 combined_df.to_csv('relevancy-toppicks.csv', index=False)
+
+# Perform PCA for dimensionality reduction
+pca = PCA(n_components=2)
+user_item_matrix_pca = pca.fit_transform(user_item_matrix)
+
+# Plot clusters
+plt.figure(figsize=(10, 6))
+
+for cluster_label in range(3):
+    cluster_points = user_item_matrix_pca[clusters == cluster_label]
+    plt.scatter(cluster_points[:, 0], cluster_points[:, 1], label=f'Cluster {cluster_label + 1}')
+
+plt.title('K-Means Clustering of Users')
+plt.xlabel('Principal Component 1')
+plt.ylabel('Principal Component 2')
+plt.legend()
+plt.show()
