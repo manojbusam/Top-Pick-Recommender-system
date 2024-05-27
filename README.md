@@ -37,7 +37,6 @@
       -- Create the table
       CREATE TABLE toppicks_recommendations (
           user_id TEXT,
-          relevancy INTEGER,
           title TEXT
       );
 
@@ -47,13 +46,7 @@
    - Execute the following SQL commands to insert records for "Manoj", "Vijju", and "Kids":
      ```sql
      INSERT INTO toppicks_recommendations (user_id, relevancy, title) VALUES
-     ('Manoj', 97, 'Salaar'),
-     ('Manoj', 65, 'Animal'),
-     ('Manoj', 75, 'Oppenheimer'),
-     ('Vijju', 85, 'Hi Nanna'),
-     ('Vijju', 95, 'Nani''s Majnu'),
-     ('Kids', 100, 'Shinchan'),
-     ('Kids', 100, 'Doremon');
+     ('Manoj', 'Oppenheimer'),
      ```
 
 1e. Checking records (OPTIONAL)::
@@ -137,7 +130,7 @@ Top-picks-recommenders-system/
       ├── ├── images/
       ├   ├      ├──Manoj.png
       ├   ├      ├──Vijju.png
-      ├   ├      ├──Kids.png
+      ├   ├      ├──Professor.png
       ├── src/
       │   ├── index.js  # Entry point for React
       │   ├── Recommendations.js  # Your component
