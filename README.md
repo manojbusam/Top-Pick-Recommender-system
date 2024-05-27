@@ -6,17 +6,10 @@
 
 This repository contains the implementation of a movie recommendation system using various technologies. Below are the building blocks and step-by-step installation instructions for setting up the system:
 
-1. Applying K-Means Clustering
-This section describes how K-Means Clustering is applied to local and global user data to generate Top-Picks movie recommendations.
-
-2. PostgreSQL Installation
-Instructions for installing PostgreSQL, a relational database management system used for storing user and movie data.
-
-3. Flask API Installation
-Steps to install and set up a Flask API, which serves as the backend for handling user requests and generating movie recommendations.
-
-4. React App Installation
-Instructions for setting up a React application, which serves as the frontend for users to interact with the movie recommendation system.
+  1. Applying K-Means Clustering
+  2. PostgreSQL Installation
+  3. Flask API Installation
+  4. React App Installation
 
 Please follow the step-by-step instructions provided in each section to set up the movie recommendation system on your local machine.
 
