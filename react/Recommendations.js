@@ -25,7 +25,7 @@ function Recommendations() {
                     throw new Error('Network response was not ok');
                 }
                 const data = await response.json();
-                setRecommendations(data);
+                setRecommendations(data); // Set recommendations directly from the response
             } catch (error) {
                 console.error('Error fetching recommendations:', error);
             }
@@ -43,9 +43,9 @@ function Recommendations() {
             <div className="top-picks-container">
                 <h2>Your Top Picks</h2>
                 <ul>
-                     {recommendations.map((item, index) => (
-                        <li key={index}>
-                            {item.title} - {item.relevancy} %
+                     {recommendations.map((title) => (
+                        <li key={title}>
+                            {title}
                         </li>
                     ))}
                 </ul>
@@ -55,3 +55,4 @@ function Recommendations() {
 }
 
 export default Recommendations;
+
