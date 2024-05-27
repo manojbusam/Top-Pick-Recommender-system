@@ -3,4 +3,5 @@ Flask
 requests
 sqlalchemy
 pandas
-flask_cors
+flask-cors
+scikit-learn

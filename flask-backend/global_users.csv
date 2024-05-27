@@ -1,0 +1,201 @@
+user_id,user,movie_id,movie,rating
+1,Alice,101,Inception,4.5
+1,Alice,102,The Shawshank Redemption,4.8
+1,Alice,103,Toy Story,4.5
+1,Alice,104,The Dark Knight,4.9
+1,Alice,105,Forrest Gump,4.6
+1,Alice,106,Finding Nemo,4.7
+1,Alice,107,Pulp Fiction,4.8
+1,Alice,108,Schindler's List,4.9
+1,Alice,109,The Lion King,4.3
+1,Alice,110,Interstellar,4.4
+2,Bob,101,Inception,4.5
+2,Bob,102,The Shawshank Redemption,4.8
+2,Bob,103,Toy Story,4.5
+2,Bob,104,The Dark Knight,4.9
+2,Bob,105,Forrest Gump,4.6
+2,Bob,106,Finding Nemo,4.7
+2,Bob,107,Pulp Fiction,4.8
+2,Bob,108,Schindler's List,4.9
+2,Bob,109,The Lion King,4.3
+2,Bob,110,Interstellar,4.4
+3,Charlie,101,Inception,4.5
+3,Charlie,102,The Shawshank Redemption,4.8
+3,Charlie,103,Toy Story,4.5
+3,Charlie,104,The Dark Knight,4.9
+3,Charlie,105,Forrest Gump,4.6
+3,Charlie,106,Finding Nemo,4.7
+3,Charlie,107,Pulp Fiction,4.8
+3,Charlie,108,Schindler's List,4.9
+3,Charlie,109,The Lion King,4.3
+3,Charlie,110,Interstellar,4.4
+4,Diana,101,Inception,4.5
+4,Diana,102,The Shawshank Redemption,4.8
+4,Diana,103,Toy Story,4.5
+4,Diana,104,The Dark Knight,4.9
+4,Diana,105,Forrest Gump,4.6
+4,Diana,106,Finding Nemo,4.7
+4,Diana,107,Pulp Fiction,4.8
+4,Diana,108,Schindler's List,4.9
+4,Diana,109,The Lion King,4.3
+4,Diana,110,Interstellar,4.4
+5,Eric,101,Inception,4.5
+5,Eric,102,The Shawshank Redemption,4.8
+5,Eric,103,Toy Story,4.5
+5,Eric,104,The Dark Knight,4.9
+5,Eric,105,Forrest Gump,4.6
+5,Eric,106,Finding Nemo,4.7
+5,Eric,107,Pulp Fiction,4.8
+5,Eric,108,Schindler's List,4.9
+5,Eric,109,The Lion King,4.3
+5,Eric,110,Interstellar,4.4
+6,Fiona,101,Inception,4.5
+6,Fiona,102,The Shawshank Redemption,4.8
+6,Fiona,103,Toy Story,4.5
+6,Fiona,104,The Dark Knight,4.9
+6,Fiona,105,Forrest Gump,4.6
+6,Fiona,106,Finding Nemo,4.7
+6,Fiona,107,Pulp Fiction,4.8
+6,Fiona,108,Schindler's List,4.9
+6,Fiona,109,The Lion King,4.3
+6,Fiona,110,Interstellar,4.4
+7,George,101,Inception,4.5
+7,George,102,The Shawshank Redemption,4.8
+7,George,103,Toy Story,4.5
+7,George,104,The Dark Knight,4.9
+7,George,105,Forrest Gump,4.6
+7,George,106,Finding Nemo,4.7
+7,George,107,Pulp Fiction,4.8
+7,George,108,Schindler's List,4.9
+7,George,109,The Lion King,4.3
+7,George,110,Interstellar,4.4
+8,Hannah,101,Inception,4.5
+8,Hannah,102,The Shawshank Redemption,4.8
+8,Hannah,103,Toy Story,4.5
+8,Hannah,104,The Dark Knight,4.9
+8,Hannah,105,Forrest Gump,4.6
+8,Hannah,106,Finding Nemo,4.7
+8,Hannah,107,Pulp Fiction,4.8
+8,Hannah,108,Schindler's List,4.9
+8,Hannah,109,The Lion King,4.3
+8,Hannah,110,Interstellar,4.4
+9,Ian,101,Inception,4.5
+9,Ian,102,The Shawshank Redemption,4.8
+9,Ian,103,Toy Story,4.5
+9,Ian,104,The Dark Knight,4.9
+9,Ian,105,Forrest Gump,4.6
+9,Ian,106,Finding Nemo,4.7
+9,Ian,107,Pulp Fiction,4.8
+9,Ian,108,Schindler's List,4.9
+9,Ian,109,The Lion King,4.3
+9,Ian,110,Interstellar,4.4
+10,Jack,101,Inception,4.5
+10,Jack,102,The Shawshank Redemption,4.8
+10,Jack,103,Toy Story,4.5
+10,Jack,104,The Dark Knight,4.9
+10,Jack,105,Forrest Gump,4.6
+10,Jack,106,Finding Nemo,4.7
+10,Jack,107,Pulp Fiction,4.8
+10,Jack,108,Schindler's List,4.9
+10,Jack,109,The Lion King,4.3
+10,Jack,110,Interstellar,4.4
+11,Kate,101,Inception,4.5
+11,Kate,102,The Shawshank Redemption,4.8
+11,Kate,103,Toy Story,4.5
+11,Kate,104,The Dark Knight,4.9
+11,Kate,105,Forrest Gump,4.6
+11,Kate,106,Finding Nemo,4.7
+11,Kate,107,Pulp Fiction,4.8
+11,Kate,108,Schindler's List,4.9
+11,Kate,109,The Lion King,4.3
+11,Kate,110,Interstellar,4.4
+12,Liam,101,Inception,4.5
+12,Liam,102,The Shawshank Redemption,4.8
+12,Liam,103,Toy Story,4.5
+12,Liam,104,The Dark Knight,4.9
+12,Liam,105,Forrest Gump,4.6
+12,Liam,106,Finding Nemo,4.7
+12,Liam,107,Pulp Fiction,4.8
+12,Liam,108,Schindler's List,4.9
+12,Liam,109,The Lion King,4.3
+12,Liam,110,Interstellar,4.4
+13,Mia,101,Inception,4.5
+13,Mia,102,The Shawshank Redemption,4.8
+13,Mia,103,Toy Story,4.5
+13,Mia,104,The Dark Knight,4.9
+13,Mia,105,Forrest Gump,4.6
+13,Mia,106,Finding Nemo,4.7
+13,Mia,107,Pulp Fiction,4.8
+13,Mia,108,Schindler's List,4.9
+13,Mia,109,The Lion King,4.3
+13,Mia,110,Interstellar,4.4
+14,Nora,101,Inception,4.5
+14,Nora,102,The Shawshank Redemption,4.8
+14,Nora,103,Toy Story,4.5
+14,Nora,104,The Dark Knight,4.9
+14,Nora,105,Forrest Gump,4.6
+14,Nora,106,Finding Nemo,4.7
+14,Nora,107,Pulp Fiction,4.8
+14,Nora,108,Schindler's List,4.9
+14,Nora,109,The Lion King,4.3
+14,Nora,110,Interstellar,4.4
+15,Oliver,101,Inception,4.5
+15,Oliver,102,The Shawshank Redemption,4.8
+15,Oliver,103,Toy Story,4.5
+15,Oliver,104,The Dark Knight,4.9
+15,Oliver,105,Forrest Gump,4.6
+15,Oliver,106,Finding Nemo,4.7
+15,Oliver,107,Pulp Fiction,4.8
+15,Oliver,108,Schindler's List,4.9
+15,Oliver,109,The Lion King,4.3
+15,Oliver,110,Interstellar,4.4
+16,Patricia,101,Inception,4.5
+16,Patricia,102,The Shawshank Redemption,4.8
+16,Patricia,103,Toy Story,4.5
+16,Patricia,104,The Dark Knight,4.9
+16,Patricia,105,Forrest Gump,4.6
+16,Patricia,106,Finding Nemo,4.7
+16,Patricia,107,Pulp Fiction,4.8
+16,Patricia,108,Schindler's List,4.9
+16,Patricia,109,The Lion King,4.3
+16,Patricia,110,Interstellar,4.4
+17,Quinn,101,Inception,4.5
+17,Quinn,102,The Shawshank Redemption,4.8
+17,Quinn,103,Toy Story,4.5
+17,Quinn,104,The Dark Knight,4.9
+17,Quinn,105,Forrest Gump,4.6
+17,Quinn,106,Finding Nemo,4.7
+17,Quinn,107,Pulp Fiction,4.8
+17,Quinn,108,Schindler's List,4.9
+17,Quinn,109,The Lion King,4.3
+17,Quinn,110,Interstellar,4.4
+18,Rachel,101,Inception,4.5
+18,Rachel,102,The Shawshank Redemption,4.8
+18,Rachel,103,Toy Story,4.5
+18,Rachel,104,The Dark Knight,4.9
+18,Rachel,105,Forrest Gump,4.6
+18,Rachel,106,Finding Nemo,4.7
+18,Rachel,107,Pulp Fiction,4.8
+18,Rachel,108,Schindler's List,4.9
+18,Rachel,109,The Lion King,4.3
+18,Rachel,110,Interstellar,4.4
+19,Simon,101,Inception,4.5
+19,Simon,102,The Shawshank Redemption,4.8
+19,Simon,103,Toy Story,4.5
+19,Simon,104,The Dark Knight,4.9
+19,Simon,105,Forrest Gump,4.6
+19,Simon,106,Finding Nemo,4.7
+19,Simon,107,Pulp Fiction,4.8
+19,Simon,108,Schindler's List,4.9
+19,Simon,109,The Lion King,4.3
+19,Simon,110,Interstellar,4.4
+20,Tom,101,Inception,4.5
+20,Tom,102,The Shawshank Redemption,4.8
+20,Tom,103,Toy Story,4.5
+20,Tom,104,The Dark Knight,4.9
+20,Tom,105,Forrest Gump,4.6
+20,Tom,106,Finding Nemo,4.7
+20,Tom,107,Pulp Fiction,4.8
+20,Tom,108,Schindler's List,4.9
+20,Tom,109,The Lion King,4.3
+20,Tom,110,Interstellar,4.4

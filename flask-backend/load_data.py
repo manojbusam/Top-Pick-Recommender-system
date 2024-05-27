@@ -4,18 +4,22 @@ import pandas as pd
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv('relevancy-toppicks.csv')
+print(df.columns)
+
+df = df.rename(columns={'user': 'user_id'})
+
+print(df.columns)
 
 # Set max_columns option to None to display all columns
 pd.set_option('display.max_columns', None)
 
 # Display the top 10 rows
-print(df.head(10))
 
 # Connect to PostgreSQL database
 conn = psycopg2.connect(
     dbname="recommendations_db",
-    user="user",
-    password="password",
+    user="manoj",
+    password="r0nald0",
     host="127.0.0.1",
     port="5432"
 )
