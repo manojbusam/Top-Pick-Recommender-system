@@ -18,14 +18,14 @@
   python3 k_means_clustering.py
   ```
 
-### 1. PostgreSQL Installation
+### 2. PostgreSQL Installation
 
-1a. MacOS:
+2a. MacOS:
    - Install PostgreSQL using Homebrew:
      ```
      brew install postgresql
      ```
-1b. Create Database:
+2b. Create Database:
    - Connect to PostgreSQL:
      ```
      psql
@@ -42,7 +42,7 @@
      \c recommendations_db
      ```
 
-1c. Create Table:
+2c. Create Table:
    - Execute the following SQL command to create the `recommendations` table:
      ```sql
      -- Drop the table if it already exists
@@ -56,9 +56,9 @@
 
      ```
 
-### 2. Flask API Installation 
+### 3. Flask API Installation 
 
-2a. Loading the data in DB and Running the Flask API 
+3a. Loading the data in DB and Running the Flask API 
   ```bash flask-backend
   # Change directory to 
   cd Top-Pick-Recommender-system/flask-backend
@@ -88,9 +88,9 @@ db_params = {
 
   
 
-### 3. React App Installation
+### 4. React App Installation
 
-3a. Running the React App (for User Interface)
+4a. Running the React App (for User Interface)
 
   ```
   ```bash
@@ -112,7 +112,7 @@ db_params = {
   Check the User interface on http://localhost:3000/
 
   
-## 4. Overall Folder structure:
+## 5. Overall Folder structure:
   ```bash
 Top-picks-recommenders-system/
 │
@@ -141,7 +141,7 @@ Top-picks-recommenders-system/
       ├── package.json  # Node.js dependencies
       └── ...  # Other React files
   ```
-## 5. Ouputs on User Selection:
+## 6. Ouputs on User Selection:
 
 ![Screenshot 2024-05-27 at 3 09 50 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/11509257-cf39-4349-8b7e-0f377ca96c16)
 ![Screenshot 2024-05-27 at 3 10 00 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/0759830b-8a7c-4ebb-bb6a-7848869e9553)
