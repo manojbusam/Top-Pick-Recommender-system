@@ -4,6 +4,20 @@
 
 ## Steps to Build and use:
 
+### 1. Applying K-Means Clustering to the local and global users on movie data set
+```bash  K-Means Clustering
+  # Change directory to 
+  cd Top-Pick-Recommender-system/flask-backend
+  # 1. Install python ,if not already.
+  # 2. Setup Virtual environment by running:
+  python3 -m venv venv
+  source venv/bin/activate
+  # 3. Install all libs:
+  pip3 install -r requirements.txt
+  # 4. Taking "global_users.csv" and "local_users.csv" creating "relevancy-toppicks.csv"
+  python3 k_means_clustering.py
+  ```
+
 ### 1. PostgreSQL Installation
 
 1a. MacOS:
@@ -107,7 +121,10 @@ Top-picks-recommenders-system/
 │   ├── app.py  # Flask application
 │   ├── load_data.py  # Flask application
 │   ├── relevancy-toppicks.csv  # Flask application
-│   └── requirements.txt  # List of Python dependencies
+│   └── global_users.csv
+│   └── local_users.csv
+│   └── k_means_clustering.py
+│   
 │
 └── react-frontend/
       ├── node_modules/  # Node.js modules
@@ -115,7 +132,7 @@ Top-picks-recommenders-system/
       │   ├── index.html  # html page
       ├── ├── images/
       ├   ├      ├──Manoj.png
-      ├   ├      ├──Vijju.png
+      ├   ├      ├──Vijaysri.png
       ├   ├      ├──Professor.png
       ├── src/
       │   ├── index.js  # Entry point for React
@@ -126,9 +143,6 @@ Top-picks-recommenders-system/
   ```
 ## 5. Ouputs on User Selection:
 
-![Screenshot 2024-05-23 at 10 25 22 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/a8a9006c-b376-40f4-b8ac-f893892da854)
-
-![Screenshot 2024-05-23 at 10 25 33 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/5bf5bec5-b9e0-41ac-942c-51b8de113f98)
-
-![Screenshot 2024-05-23 at 11 26 08 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/f2cdee8c-338a-4504-b535-40d9a4ed7da4)
-
+![Screenshot 2024-05-27 at 3 09 50 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/11509257-cf39-4349-8b7e-0f377ca96c16)
+![Screenshot 2024-05-27 at 3 10 00 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/0759830b-8a7c-4ebb-bb6a-7848869e9553)
+![Screenshot 2024-05-27 at 3 10 10 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/5b76c619-e880-4b9b-9754-a8fb2e580ab1)
