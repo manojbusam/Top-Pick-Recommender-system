@@ -4,7 +4,7 @@
 
 ### Building Blocks and Step-by-Step Installation Guide
 
-This repository contains the implementation of a movie recommendation system using various technologies. Below are the building blocks and step-by-step installation instructions for setting up the system:
+This repository contains the implementation of a Top Picks movie recommendation system using various technologies. Below are the building blocks and step-by-step installation instructions for setting up the system:
 
 [![Unsupervised Machine Learning](https://img.shields.io/badge/Unsupervised%20Machine%20Learning-blue?style=flat-square&label=K-Means%20Clustering)](#unsupervised-machine-learning)
 
@@ -28,7 +28,7 @@ Please follow the step-by-step instructions provided in each section to set up t
   source venv/bin/activate
   # 3. Install all libs:
   pip3 install -r requirements.txt
-  # 4. Taking "global_users.csv" and "local_users.csv" creating "relevancy-toppicks.csv"
+  # 4. Taking "global_users.csv" and "local_users.csv" and creating "relevancy-toppicks.csv"
   python3 k_means_clustering.py
   ```
 ### 1b. K-Means Clustering of Users
