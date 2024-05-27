@@ -2,9 +2,25 @@
 
 <img width="835" alt="Screenshot 2024-05-22 at 4 13 01 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/fe112906-3444-4b67-9b1d-8e1dd6d835e0">
 
-## Steps to Build and use:
+### Building Blocks and Step-by-Step Installation Guide
 
-### 1. Applying K-Means Clustering to the local and global users on movie data set
+This repository contains the implementation of a movie recommendation system using various technologies. Below are the building blocks and step-by-step installation instructions for setting up the system:
+
+1. Applying K-Means Clustering
+This section describes how K-Means Clustering is applied to local and global user data to generate Top-Picks movie recommendations.
+
+2. PostgreSQL Installation
+Instructions for installing PostgreSQL, a relational database management system used for storing user and movie data.
+
+3. Flask API Installation
+Steps to install and set up a Flask API, which serves as the backend for handling user requests and generating movie recommendations.
+
+4. React App Installation
+Instructions for setting up a React application, which serves as the frontend for users to interact with the movie recommendation system.
+
+Please follow the step-by-step instructions provided in each section to set up the movie recommendation system on your local machine.
+
+### 1. Applying K-Means Clustering 
 ### 1a. Steps to install
 ```bash  K-Means Clustering
   # Change directory to 
@@ -125,7 +141,7 @@ db_params = {
   Check the User interface on http://localhost:3000/
 
   
-## 5. Overall Folder structure:
+## Overall Folder structure:
   ```bash
 Top-picks-recommenders-system/
 │
@@ -154,7 +170,7 @@ Top-picks-recommenders-system/
       ├── package.json  # Node.js dependencies
       └── ...  # Other React files
   ```
-## 6. Ouputs on User Selection:
+## Ouputs on User Selection:
 
 ![Screenshot 2024-05-27 at 3 09 50 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/11509257-cf39-4349-8b7e-0f377ca96c16)
 ![Screenshot 2024-05-27 at 3 10 00 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/0759830b-8a7c-4ebb-bb6a-7848869e9553)
