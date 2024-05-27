@@ -42,20 +42,6 @@
 
      ```
 
-1d. Insert Records (OPTIONAL):
-   - Execute the following SQL commands to insert records for "Manoj", "Vijju", and "Kids":
-     ```sql
-     INSERT INTO toppicks_recommendations (user_id, relevancy, title) VALUES
-     ('Manoj', 'Oppenheimer'),
-     ```
-
-1e. Checking records (OPTIONAL)::
-
-   ```sql
-   SELECT * FROM toppicks_recommendations LIMIT 10;
-   ```
-   ![Screenshot 2024-05-23 at 9 56 25 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/309d6c52-8352-4192-a324-c3225b7a4680)
-
 ### 2. Flask API Installation 
 
 2a. Loading the data in DB and Running the Flask API 
