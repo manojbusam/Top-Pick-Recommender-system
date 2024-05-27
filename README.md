@@ -5,6 +5,7 @@
 ## Steps to Build and use:
 
 ### 1. Applying K-Means Clustering to the local and global users on movie data set
+### 1a. Steps to install
 ```bash  K-Means Clustering
   # Change directory to 
   cd Top-Pick-Recommender-system/flask-backend
@@ -17,6 +18,18 @@
   # 4. Taking "global_users.csv" and "local_users.csv" creating "relevancy-toppicks.csv"
   python3 k_means_clustering.py
   ```
+### 1b. K-Means Clustering of Users
+
+<img width="1435" alt="Screenshot 2024-05-27 at 3 22 08 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/54578925-f5c9-4e50-a634-0c186f057761">
+
+The K-means clustering algorithm is applied to local and global user data obtained from the 'local_users.csv' and 'global_users.csv' datasets. This algorithm partitions users into clusters based on their movie preferences. After clustering, recommendations are generated for each user within their respective cluster, and the results are saved to 'relevancy-toppicks.csv'.
+
+Usage:
+-Navigate to the project directory.
+-Set up a virtual environment and install dependencies as described above.
+-Run the 'k_means_clustering.py' script to perform clustering and generate recommendations.
+-The generated recommendations will be stored in the 'relevancy-toppicks.csv' file.
+-This process helps identify user clusters and provides personalized movie recommendations for better user engagement and satisfaction.
 
 ### 2. PostgreSQL Installation
 
