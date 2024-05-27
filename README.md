@@ -6,15 +6,13 @@
 
 This repository contains the implementation of a movie recommendation system using various technologies. Below are the building blocks and step-by-step installation instructions for setting up the system:
 
-  1. Applying K-Means Clustering
-  2. PostgreSQL Installation
-  3. Flask API Installation
-  4. React App Installation
+[![Unsupervised Machine Learning](https://img.shields.io/badge/Unsupervised%20Machine%20Learning-blue?style=flat-square&label=K-Means%20Clustering)](#unsupervised-machine-learning)
 
-[![Unsupervised Machine Learning](https://img.shields.io/badge/-Applying%20K--Means%20Clustering-blue)](#unsupervised-machine-learning)
-[![SQL DB Installation](https://img.shields.io/badge/-PostgreSQL%20Installation-blue)](#sql-db-installation)
-[![Backend API Installation](https://img.shields.io/badge/-Flask%20API%20Installation-blue)](#backend-api-installation)
-[![Frontend Installation](https://img.shields.io/badge/-React%20App%20Installation-blue)](#frontend-installation)
+[![SQL DB](https://img.shields.io/badge/SQL%20DB%20Installation-green?style=flat-square&label=PostgreSQL)](#sql-db-installation)
+
+[![Backend API](https://img.shields.io/badge/Backend%20API%20Installation-orange?style=flat-square&label=Flask%20API)](#backend-api-installation)
+
+[![Frontend App](https://img.shields.io/badge/Frontend%20Installation-red?style=flat-square&label=React%20App)](#frontend-installation)
 
 
 Please follow the step-by-step instructions provided in each section to set up the movie recommendation system on your local machine.
