@@ -109,8 +109,10 @@ db_params = {
   python3 app.py
   ```
   Check the Flask API on http://127.0.0.1:5000/api/recommend?user_id=Manoj
-  
-  ![Screenshot 2024-05-23 at 10 05 33 AM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/cd003075-4bf0-4ab0-ac4e-04944228bad3)
+
+  ![Screenshot 2024-05-27 at 3 44 28 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/39e1b64e-b66e-4eae-8b41-cd430e690fe1)
+
+ 
 
   
 
