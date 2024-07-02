@@ -1,6 +1,8 @@
 # Top-Pick-Recommender-system
 
-<img width="835" alt="Screenshot 2024-05-22 at 4 13 01 PM" src="https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/fe112906-3444-4b67-9b1d-8e1dd6d835e0">
+![Screenshot 2024-05-27 at 3 09 50 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/11509257-cf39-4349-8b7e-0f377ca96c16)
+![Screenshot 2024-05-27 at 3 10 00 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/0759830b-8a7c-4ebb-bb6a-7848869e9553)
+![Screenshot 2024-05-27 at 3 10 10 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/5b76c619-e880-4b9b-9754-a8fb2e580ab1)
 
 ### Building Blocks and Step-by-Step Installation Guide
 
@@ -169,8 +171,6 @@ Top-picks-recommenders-system/
       ├── package.json  # Node.js dependencies
       └── ...  # Other React files
   ```
-## Ouputs on User Selection:
 
-![Screenshot 2024-05-27 at 3 09 50 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/11509257-cf39-4349-8b7e-0f377ca96c16)
-![Screenshot 2024-05-27 at 3 10 00 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/0759830b-8a7c-4ebb-bb6a-7848869e9553)
-![Screenshot 2024-05-27 at 3 10 10 PM](https://github.com/manojbusam/Top-Pick-Recommender-system/assets/44409170/5b76c619-e880-4b9b-9754-a8fb2e580ab1)
+
+
